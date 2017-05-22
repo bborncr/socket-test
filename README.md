@@ -10,5 +10,6 @@ I used this project to practice several tasks.
 This test runs on a Raspberry PI that has a 320x480 touchscreen
 The script `chromium_startup.sh` starts chrome in full screen kiosk mode. The `unclutter` command hides the mouse.
 ## Usage
-The "display" should connect to http://<url>:3000
-The "controller" connects to http://<url>:3000/admin
+The "display" should connect to `http://<url>:3000`
+
+The "controller" connects to `http://<url>:3000/admin`
