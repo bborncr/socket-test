@@ -9,7 +9,7 @@ var g = new JustGage({
 
 g.value = 0;
 
-var socket = io.connect("http://192.168.86.43:3000");
+var socket = io.connect("http://192.168.10.245:3000");
 socket.on('connect', function (data) {
   console.log('connected');
   socket.emit('connNotification', { name: 'client', status: 'connected' });

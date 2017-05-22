@@ -7,8 +7,9 @@ I used this project to practice several tasks.
 * Insert a graph into a web page
 * Using a slider to control gauge over websocket
 ## Raspberry PI
-This test runs on a Raspberry PI that has a 320x480 touchscreen
+This test runs on a Raspberry PI 3 that has a 320x480 touchscreen.
 The script `chromium_startup.sh` starts chrome in full screen kiosk mode. The `unclutter` command hides the mouse.
+It was necessary to upgrade the pre-installed *node js* to a newer version.
 ## Usage
 The "display" should connect to `http://<url>:3000`
 
